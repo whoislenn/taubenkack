@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Metropolis'; /*a name to be used later*/
+    src: url('fonts/Milchella-Regular.ttf'); /*URL to font*/
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  
+  /* Layout */
+  main {
+    max-width: 700px;
+    
+    
+  }
+  
+  #scroll-to-bottom {
+    font-weight: bold;
+    color: green;
+  }
+
+#tauben {
+    text-align: center;
+    font-size: 320px;
+    margin-top: 50px;
+    font-weight: 100;
+    font-family: "Metropolis"; /* Change the font */
+  }
+
+#kack {
+    text-align: center;
+    font-size: 320px;
+    margin: -100px;
+    
+    font-weight: 100;
+    font-family: "Metropolis"; /* Change the font */
+  }
+
+  .centered-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg); 
+    max-width: 80%;
+    max-height: 80%;
+  }
+
+  .post-left{
+    margin-top: 300px;
+    margin-left: 50px;
+    font-family: "Metropolis";
+    font-size: 100px;
+    font-weight: 100;
+
+  }
+
+  .content-container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .post-left-content{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+
+  }
+
+  .post-left-image{
+    left: 50%;
+    width: 50%;
+
+  }
+  
+  
+
+
+
+
+
+  .post-right{
+    margin-top: 200px;
+    text-align: right;
+    margin-right: 50px;
+    font-family: "Metropolis";
+    font-size: 100px;
+    font-weight: 100;
+
+  }
+
+  .content-container-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .post-right-content{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+    left: 50%;
+
+  }
+
+  .post-right-image{
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    max-height: 80%;
+    
+    right: 50%;
+
+  }
+
+
+
+
+
+
+
+
+  .eins{
+    margin-top: 200px;
+    text-align: right;
+    margin-right: 50px;
+    font-family: "Metropolis";
+    font-size: 100px;
+    font-weight: 100;
+
+  }
+
+  .zwei {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .drei{
+    margin-top: 20px;
+    margin-right: 100px;
+    font-family: "Times New Roman";
+    font-size: 30px;
+    font-weight: 100;
+    width: 50%;
+    left: 30%;
+    text-align: right;
+
+  }
+
+  .vier{
+    transform: translate(-50%, -50%); 
+    max-width: 80%;
+    max-height: 80%;
+    
+    right: 50%;
+
+  }
